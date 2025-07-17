@@ -11,7 +11,7 @@ import SwiftUI
 struct FoodlyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoodlyTabView()
         }
     }
 }
