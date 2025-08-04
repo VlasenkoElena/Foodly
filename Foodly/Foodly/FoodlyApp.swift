@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FoodlyApp: App {
+    
+    var order = Order()
+    
     var body: some Scene {
         WindowGroup {
-            FoodlyTabView()
+            FoodlyTabView().environmentObject(order)
         }
     }
 }
